@@ -23,7 +23,7 @@ demo文件夹中有很多demo的脚本，全部都可以独立使用。其中dem
 `python demo_rag.py`
 
 ## models
-模型下载地址如下（后续会不断更新）：
+模型下载地址如下（后续会不断更新，也可以直接用Models文件夹中的文件下载）：
 | 模型名称 | 下载链接 | 类型 | 备注 |
 |----------|----------|------|------|
 | Qwen3-4B-NPC | [下载](https://modelscope.cn/models/ccArtermices/Qwen3-4B-NPC) | 问答模型 | 微调Qwen3-4B获得 |
