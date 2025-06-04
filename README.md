@@ -18,6 +18,20 @@ readme：即当前目录，项目文档说明，如运行指南、使用手册�
 
 ## usage
 
+### Quick Start
+
+直接在自己的机器上的命令行输入：
+
+```
+curl -X POST http://xxxxxxxx/ask
+\ -H "Content-Type: application/json"
+\ -d '{ "uuid": "xxxxxxxxxxxxxxx", "question": "你是学生吗？" }'
+```
+
+其中，post地址请联系管理员获取
+
+### Other usages
+
 demo文件夹中有很多demo的脚本，全部都可以独立使用。其中demo_{模型名}是快速测试，demo_rag是利用langchain技术连接ollama和json文件（出于保密本仓库不给出）进行问答。先下载models文件夹中的模型，之后直接修改demo中的路径并运行代码：
 
 `python demo_qwen3-4b-NPC.py`
@@ -28,18 +42,18 @@ demo文件夹中有很多demo的脚本，全部都可以独立使用。其中dem
 
 `python demo_rag.py`
 
-## models
+## mMdels
 模型下载地址如下（后续会不断更新，也可以直接用Models文件夹中的文件下载）：
 | 模型名称 | 下载链接 | 类型 | 备注 |
 |----------|----------|------|------|
 | Qwen3-4B-NPC | [下载](https://modelscope.cn/models/ccArtermices/Qwen3-4B-NPC) | 问答模型 | 微调Qwen3-4B获得（lora） |
 | DeepseekR1-7B-NPC | [下载](https://modelscope.cn/models/ccArtermices/DeepseekR1-7B-NPC) | 问答模型 | 微调DeepseekR1-7B获得（qlora） |
 
-## future work
+## Future work
 
-Webui
+- [] Webui
 
-API调用
+- [] API调用
 
 全自动模型下载和运行程序
 
