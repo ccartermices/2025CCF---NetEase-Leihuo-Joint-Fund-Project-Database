@@ -51,9 +51,9 @@ demo文件夹中有很多demo的脚本，全部都可以独立使用。其中dem
 
 ## Future work
 
-- [] Webui
+- [✓] Webui
 
-- [] API调用
+- [✓] API调用
 
 全自动模型下载和运行程序
 
