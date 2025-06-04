@@ -16,7 +16,7 @@ readme：即当前目录，项目文档说明，如运行指南、使用手册�
 
 利用llama factory微调Qwen3-4B和DeepseekR1-7B，获得相应的lora模型。其中，前者用的lora，后者用的是qlora。
 
-## usage
+## Usage
 
 ### Quick Start
 
