@@ -28,6 +28,12 @@ curl -X POST http://xxxxxxxx/ask
 \ -d '{ "uuid": "xxxxxxxxxxxxxxx", "question": "你是学生吗？" }'
 ```
 
+或者
+
+```
+curl -X POST "https://xxxxxxxxxx.ngrok-free.app/api/v1/query"  -H "Content-Type: application/json" -d "{\"uuid\":\"xxxxxxxxxxxx\",\"question\":\"你是学生吗？\"}"
+```
+
 其中，post地址请联系管理员获取
 
 ### Other usages
